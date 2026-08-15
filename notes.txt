@@ -1,0 +1,9 @@
+今天学习了 Agent 的工具调用。
+
+目前 Agent 有三个工具：
+1. calculator
+2. get_current_time
+3. read_file
+
+Agent Loop 的核心是：
+模型决策 → 调用工具 → 获取结果 → 再次交给模型。
